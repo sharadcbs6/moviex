@@ -8,7 +8,7 @@ Plz turn off the addblocker installed on the browser and turn on vpn so ensure t
 
 ## Live Demo
 
-The application is deployed and accessible via the following link: [Movie Search Application](http://lnkiy.in/moviex)
+The application is deployed and accessible via the following link: [Movie Search Application](https://stupendous-shortbread-74f95a.netlify.app/)
 
 ## Features
 

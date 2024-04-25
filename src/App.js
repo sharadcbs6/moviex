@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import SearchBar from './SearchBar';
 import MovieList from './MovieList';
-
+import ParticlesComponent from './ParticlesComponent';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -83,6 +83,8 @@ function App() {
   };
 
   return (
+<>
+<ParticlesComponent />
     <motion.div
      className="container-fluid"
       style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}
@@ -95,7 +97,7 @@ function App() {
 
         <SearchBar onSearch={handleSearch} />
         
-        <MovieList movies={movies} />
+        <MovieList movies={movies}  />
         <div className="row">
           {isLoading ? (
             <p>Loading...</p>
@@ -121,7 +123,10 @@ function App() {
           )}
           </div>
       </div>
-      <footer className="footer mt-auto py-3 bg-dark text-white">
+
+
+    </motion.div>
+      <footer className="footer mt-auto py-3 bg-dark text-white" style={{top:'100',position:'absolute',width:'100%'}}>
   <div className="text-center">
     {/* Footer content goes here */}
     <p>&copy; 2024 <span style={{color: 'red'}}>M</span>oviex Search| Designed by Sharad Yadav</p>
@@ -130,9 +135,7 @@ function App() {
     </a>
   </div>
 </footer>
-
-
-    </motion.div>
+    </>
   );
 }
 

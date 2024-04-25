@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function MoviePlayerPopup({ movieId, onClose }) {
+function MoviePlayerPopup({ title,movieId, onClose }) {
   const movieURL = `https://vidsrc.to/embed/movie/${movieId}`;
 
   
@@ -19,7 +19,7 @@ function MoviePlayerPopup({ movieId, onClose }) {
       <div className="modal-dialog modal-lg" style={{ maxHeight: '150vh' }}> {/* Adjust the maxHeight here */}
         <div className="modal-content">
           <div className="modal-header bg-dark text-light">
-            <h5 className="modal-title">Play Movie</h5>
+            <h5 className="modal-title">{title}</h5>
             <button type="button" className="btn-close btn-close-white" onClick={onClose}></button>
           </div>
           <div className="modal-body" style={{ height: '80vh', overflowY: 'auto' }}> {/* Adjust the height here */}

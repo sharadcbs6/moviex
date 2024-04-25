@@ -16,7 +16,7 @@ function MovieCard({ movie }) {
     <>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7191602387880055"
      crossorigin="anonymous"></script>
-      <div className="card h-100 shadow-sm " onClick={handleClick} style={{ cursor: 'pointer' }}>
+      <div className="card h-100  " onClick={handleClick} style={{ cursor: 'pointer' }}>
         <img
           src={movie.posterPath}
           className="card-img-top"
