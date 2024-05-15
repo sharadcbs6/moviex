@@ -4,7 +4,7 @@ This project is a Movie Search Application built using React and the TMDB (The M
 
 # Important Information
 
-Plz turn off the addblocker installed on the browser and turn on vpn so ensure that availability of the Moviex content to your desktop
+Please turn off the ad blocker installed on your browser and turn on the VPN to ensure the availability of Moviex content on your desktop.
 
 ## Live Demo
 
@@ -15,8 +15,9 @@ The application is deployed and accessible via the following link: [Movie Search
 - Search for movies by title, genre, or keyword
 - View a list of search results with basic movie information
 - Access detailed information about each movie, including synopsis, release date, cast, and crew
-- Watch movie trailers within the application
-- Save favorite movies for later viewing (requires user registration)
+- Watch movie  and  their trailers within the application
+  
+
 
 ## Installation
 
