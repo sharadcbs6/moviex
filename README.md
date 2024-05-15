@@ -12,9 +12,9 @@ The application is deployed and accessible via the following link: [Movie Search
 
 ## Features
 
-- Search for movies by title, genre, or keyword
+- Search for movies by name
 - View a list of search results with basic movie information
-- Access detailed information about each movie, including synopsis, release date, cast, and crew
+- Access detailed information about each movie, including synopsis,  cast. 
 - Watch movie  and  their trailers within the application
   
 
